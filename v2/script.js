@@ -398,6 +398,9 @@ Chat = {
                 });
             }
         }
+
+        const scrollWidth = $("#chat_container").prop("scrollWidth");
+        $("#chat_container").scrollLeft(scrollWidth);
     }, 200),
 
     loadUserBadges: function(nick, userId) {
