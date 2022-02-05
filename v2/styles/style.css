@@ -17,7 +17,6 @@ body {
     color: white;
     font-weight: 800;
     word-break: break-word;
-    justify-content: flex-end;
 }
 
 #chat_container::-webkit-scrollbar{
