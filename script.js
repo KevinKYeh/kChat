@@ -137,6 +137,12 @@ function fontUpdate(event) {
                 href: "styles/font_Wallpoet.css"
             }).appendTo("head");
             break;
+        case '12':
+            $("<link/>", {
+              rel: "stylesheet",
+              class: "font",
+              href: "https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap"
+          }).appendTo("head");
     }
 }
 
